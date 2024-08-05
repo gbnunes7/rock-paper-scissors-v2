@@ -8,3 +8,20 @@
     text-align: center;
     margin-top: 36px;
 }
+
+.container__jogo {
+    display: flex;
+    justify-content: center;
+    margin-top: 52px;
+    gap: 48px;
+}
+
+.container__jogo img {
+    width: 150px;
+}
+
+.container__jogo button:hover {
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+    transform: scale(1.25); 
+}
