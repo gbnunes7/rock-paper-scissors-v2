@@ -15,8 +15,6 @@ function Game() {
         setEscolhaMaquina(options[machineSelection]);
     };
     
-    console.log(escolhaUsuario,escolhaMaquina)
-    console.log(Play(escolhaUsuario,escolhaMaquina))
     
     return (
         <main className='main__container'>
@@ -32,8 +30,16 @@ function Game() {
                     <img src="/assets/pedra.png" alt="mão fazendo pedra" />
                 </button>
             </div>
-            {escolhaUsuario && <p>Você escolheu: {escolhaUsuario}</p>}
-            {escolhaMaquina && <p>A máquina escolheu: {escolhaMaquina}</p>}
+            <div className='resultado__container'>
+                <div className='choices__container'>
+                    {escolhaUsuario && <p>User choice: <span>{escolhaUsuario.replace(escolhaUsuario[0], escolhaUsuario[0].toUpperCase())}</span></p>}
+                    <p>VS</p>
+                    {escolhaMaquina && <p>Machine choice: <span>{escolhaMaquina.replace(escolhaMaquina[0], escolhaMaquina[0].toUpperCase())}</span></p>}
+                </div>
+                <div className='div__resultado'>
+                    {escolhaMaquina && escolhaUsuario && <p><span>{Play(escolhaUsuario, escolhaMaquina)}</span></p>}
+                </div>
+            </div>
         </main>
     );
 }

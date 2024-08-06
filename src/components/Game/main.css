@@ -25,3 +25,32 @@
     transition-duration: 150ms;
     transform: scale(1.25); 
 }
+
+.resultado__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin-top: 48px; 
+}
+
+.resultado__container p {
+    font-size: 24px;
+}
+
+.resultado__container span {
+    font-weight: 700;
+}
+
+
+.choices__container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 16px; 
+}
+
+.div__resultado {
+    margin-top: 10px; 
+    text-align: center; 
+}
