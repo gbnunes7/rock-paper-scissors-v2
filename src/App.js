@@ -1,6 +1,6 @@
 import Header from './components/Header';
 import { Footer } from './components/Footer';
-import { Main } from './components/Main';
+import Game from './components/Game/game';
 import './App.css';
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <Header/>
-      <Main/>
+      <Game/>
       <Footer/>
     </div>
   );
