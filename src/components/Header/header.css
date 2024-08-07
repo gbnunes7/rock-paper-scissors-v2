@@ -3,6 +3,8 @@
     padding: 36px 16px;
     background-color: rgb(191 219 254);
     width: 100%;
+    display: flex;
+    justify-content: space-between;
 
 }
 

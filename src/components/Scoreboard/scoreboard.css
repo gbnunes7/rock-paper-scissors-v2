@@ -1,0 +1,14 @@
+.scoreboard {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    gap: 8px;
+    border-radius: 6px;
+    margin-right: 5rem;
+}
+
+.scoreboard h4 {
+    text-align: center;
+    font-weight: bold;
+}
