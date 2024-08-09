@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# Rock-Paper-Scissors
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the repository for my Rock-Paper-Scissors game, where the user can play against the computer and keep track of scores. This README provides a detailed explanation of the application, its components, and how to get started.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Introduction](#introduction)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Running the Application](#running-the-application)
+- [Game Rules](#game-rules)
+- [Conclusion](#conclusion)
 
-### `npm start`
+## Introduction
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This application is a digital version of the classic Rock-Paper-Scissors game, developed to demonstrate the integration of modern web technologies. The game allows users to play against a computer, with scores being updated dynamically.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
 
-### `npm test`
+- **HTML**: The standard markup language for creating web pages.
+- **CSS**: A style sheet language used for describing the presentation of a document written in HTML.
+- **TailwindCSS**: A utility-first CSS framework.
+- **JavaScript**: A programming language that conforms to the ECMAScript specification and is used to create dynamic and interactive effects within web browsers.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+Before you start, ensure you have `node` and `npm` installed on your machine.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Clone the repository**:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   git clone https://github.com/gbnunes7/rock-paper-scissors.git
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. **Navigate to the repository:**:
 
-### `npm run eject`
+   ```bash
+   cd rock-paper-scissors
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. **Install the dependencies:**:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+   npm install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Running the Application
 
-## Learn More
+To run the application:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Open `index.html` in your web browser to start the game or visit the deployed version at [Vercel](https://rock-paper-scissors-two-peach.vercel.app).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Game Rules
 
-### Code Splitting
+- **Rock wins against Scissors**
+- **Scissors wins against Paper**
+- **Paper wins against Rock**
+- If both players throw the same option, it is considered a tie.
+- The New Game button is used to reset points.
+- It's not permitted to select Rock twice in a row.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Conclusion
 
-### Analyzing the Bundle Size
+This Rock-Paper-Scissors game setup is intended to provide a fun and interactive way to demonstrate the capabilities of modern web development technologies. Whether you're looking to learn or just play a quick game, this repository offers a solid foundation. Happy coding!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+If you find any bugs or have a feature request, please open an issue on [GitHub](https://github.com/gbnunes7/rock-paper-scissors/issues).
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Made by [Gabriel Nunes](https://github.com/gbnunes7)**.
