@@ -1,6 +1,6 @@
 import './footer.css'
 import Botao from '../Botao'
-import Modal from '../../modal'
+import Modal from '../Modal'
 import { useState } from 'react'
 
 export const Footer = () => {
