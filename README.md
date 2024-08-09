@@ -1,6 +1,6 @@
-# Rock-Paper-Scissors
+# Rock-Paper-Scissors V2
 
-Welcome to the repository for my Rock-Paper-Scissors game, where the user can play against the computer and keep track of scores. This README provides a detailed explanation of the application, its components, and how to get started.
+Welcome to the repository for version 2 of my Rock-Paper-Scissors game, now built with React. This README provides a detailed explanation of the application, its components, and how to get started.
 
 ## Table of Contents
 
@@ -13,14 +13,14 @@ Welcome to the repository for my Rock-Paper-Scissors game, where the user can pl
 
 ## Introduction
 
-This application is a digital version of the classic Rock-Paper-Scissors game, developed to demonstrate the integration of modern web technologies. The game allows users to play against a computer, with scores being updated dynamically.
+This application is an enhanced version of the classic Rock-Paper-Scissors game, now developed using React. The game features component-based architecture, allowing for better scalability and maintainability. The use of React's `useState` hook enables dynamic updates to the game state, providing a seamless user experience.
 
 ## Technologies Used
 
-- **HTML**: The standard markup language for creating web pages.
-- **CSS**: A style sheet language used for describing the presentation of a document written in HTML.
-- **TailwindCSS**: A utility-first CSS framework.
-- **JavaScript**: A programming language that conforms to the ECMAScript specification and is used to create dynamic and interactive effects within web browsers.
+- **React**: A JavaScript library for building user interfaces, emphasizing component-based architecture.
+- **JavaScript**: The programming language used to implement the game logic and handle dynamic interactions.
+- **HTML**: The structure of the web application.
+- **CSS**: Used to style the application and enhance the user experience.
 
 ## Installation
 
@@ -29,24 +29,29 @@ Before you start, ensure you have `node` and `npm` installed on your machine.
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/gbnunes7/rock-paper-scissors.git
+   git clone https://github.com/gbnunes7/rock-paper-scissors-v2.git
 
-2. **Navigate to the repository:**:
+2. **Navigate to the repository**:
 
    ```bash
-   cd rock-paper-scissors
+   cd rock-paper-scissors-v2
 
-3. **Install the dependencies:**:
-
+   ```bash
+3. **Install the dependencies:**
+   
    ```bash
    npm install
-
 
 ## Running the Application
 
 To run the application:
 
-Open `index.html` in your web browser to start the game or visit the deployed version at [Vercel](https://rock-paper-scissors-two-peach.vercel.app).
+1. **Start the development server:**
+
+   ```bash
+   npm start
+
+2. **Open your browser and navigate to http://localhost:3000 to play the game, or visit the deployed version at [Vercel](https://rock-paper-scissors-v2-iota.vercel.app).**
 
 ## Game Rules
 
@@ -59,8 +64,6 @@ Open `index.html` in your web browser to start the game or visit the deployed ve
 
 ## Conclusion
 
-This Rock-Paper-Scissors game setup is intended to provide a fun and interactive way to demonstrate the capabilities of modern web development technologies. Whether you're looking to learn or just play a quick game, this repository offers a solid foundation. Happy coding!
+This React-based Rock-Paper-Scissors game is designed to showcase the power of component-based development and state management using useState. Whether you're a developer interested in learning React or just looking to enjoy a quick game, this repository provides a solid starting point.
 
-If you find any bugs or have a feature request, please open an issue on [GitHub](https://github.com/gbnunes7/rock-paper-scissors/issues).
-
-**Made by [Gabriel Nunes](https://github.com/gbnunes7)**.
+Made by [Gabriel Nunes](https://github.com/gbnunes7)
